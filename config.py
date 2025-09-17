@@ -15,7 +15,7 @@ REPO_NAME = 'ArXivDaily_Lensing'
 NEW_SUB_URL = 'https://arxiv.org/list/astro-ph/new'
 
 # Keywords to search
-KEYWORD_LIST = ["gravitational lensing", "strong lensing", "dark matter", "machine learning", "neural network"]
+KEYWORD_LIST = ["gravitational lensing", "strong lensing", "dark matter", "machine learning", "neural network", "galaxy"]
 # Keywords to exclude
 KEYWORD_EX_LIST = []
 # Note that the 'Keywords' above are actually searched in the abstract instead of the real keyword section. 
