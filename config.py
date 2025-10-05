@@ -17,5 +17,5 @@ NEW_SUB_URL = 'https://arxiv.org/list/astro-ph/new'
 # Keywords to search
 KEYWORD_LIST = ["gravitational lensing", "strong lensing", "dark matter", "machine learning", "neural network", "galaxy merge", "galaxy evolution"]
 # Keywords to exclude
-KEYWORD_EX_LIST = ["black hole", "ISM"]
+KEYWORD_EX_LIST = ["black hole", "ISM", "WIMP", "BH"]
 # Note that the 'Keywords' above are actually searched in the abstract instead of the real keyword section. 
