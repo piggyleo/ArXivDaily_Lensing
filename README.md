@@ -1,4 +1,4 @@
-# Showing new listings for Monday, 19 October 2026
+# Showing new listings for Tuesday, 20 October 2026
 Auto update Star Formation & Molecular Cloud papers at about 2:30am UTC (10:30am Beijing time) every weekday.
 
 
@@ -13,50 +13,90 @@ Keyword list: ['gravitational lensing', 'strong lensing', 'dark matter', 'machin
 Excluded: ['black hole', 'ISM', 'WIMP', 'BH']
 
 
-### Today: 4papers 
-#### Primordial Power Spectrum from the Lensed CMB Temperature Spectrum using Iterative Delensing and Fourier Denoising
- - **Authors:** Rajorshi Sushovan Chandra, Debarshi Mukherjee, Tarun Souradeep
+### Today: 8papers 
+#### Analysis of Binary O-type Star Systems Using Recurrent Neural Networks
+ - **Authors:** Miguel Flores R., Luis J. Corral, Celia R. Fierro-Santillán, Silvana G. Navarro
+ - **Subjects:** Subjects:
+Instrumentation and Methods for Astrophysics (astro-ph.IM); Solar and Stellar Astrophysics (astro-ph.SR); Artificial Intelligence (cs.AI)
+ - **Arxiv link:** https://arxiv.org/abs/2610.24015
+
+ - **Pdf link:** https://arxiv.org/pdf/2610.24015
+
+ - **Abstract**
+ This work presents an initial analysis of the estimation of effective temperature and surface gravity for simulated O-type binary systems using a recurrent neural network. The proposed system uses 34 equivalent-width measurements from the optical region of a stellar spectrum. Two methods were applied to observed IACOB spectra before normalization: the addition of a blackbody continuum and the addition of a second observed spectrum. The first method produces only small differences in the normalized line profiles and in the estimated physical parameters over 3700-7000~Å. In the second method, the secondary spectrum is added with contributions of 5, 10, 20, 30, 50, and 75 per cent, as defined relative to the original primary spectrum. The general comparison includes 192 simulated systems and 1152 modified spectra. For most of these spectra, the estimated effective temperature and surface gravity decrease as the contribution of the secondary component increases. Individual examples using HD14947, HD190429, HD48099, and HD206267 show that this behavior is not the same for every combination: some estimated effective temperatures fall below the estimates for both isolated spectra, and some surface gravity estimates increase. Comparisons with previously published values also depend on the physical parameter and reference considered. The results show that the proposed system is sensitive to the addition of a secondary spectrum, but do not establish a unique contribution for the secondary component of an observed binary.
+#### Consistently Reproducing Early Galaxy Observations and 21-cm Signal during the Epoch of Reionization
+ - **Authors:** Michele Bianco, Sambit K. Giri, Arghyadeep Basu\orcidlink, Tommaso Boschi, Aurel Schneider, Enrico Garaldi, Garrelt Mellema
  - **Subjects:** Subjects:
 Cosmology and Nongalactic Astrophysics (astro-ph.CO)
- - **Arxiv link:** https://arxiv.org/abs/2610.22648
+ - **Arxiv link:** https://arxiv.org/abs/2610.24064
 
- - **Pdf link:** https://arxiv.org/pdf/2610.22648
+ - **Pdf link:** https://arxiv.org/pdf/2610.24064
 
  - **Abstract**
- The CMB power spectra are a strong probe of the primordial power spectrum (PPS) of the initial inflationary scalar perturbations. There are many proposed models, from the simpler power law form to various well motivated physical models that predict features in the PPS beyond the power law. Given the large parameter space of possible models, it is necessary to have model independent searches for such features. Weak gravitational lensing alters the CMB temperature power spectrum and can bias free form reconstructions of the primordial power spectrum (PPS) if not accounted for precisely, such as when using estimators like the Richardson-Lucy (RL) deconvolution algorithm. We build on our design of the Non linear Iterative Richardson Lucy (NIRL) estimator that updates the lensing contribution using the freeform PPS recovered at the previous iteration, making it truly model independent in the PPS domain while accounting for lensing. Inspired by signal processing and Fourier filtering techniques from radio interferometry, we also design a Fourier space iterative low pass filter (FLIP) to suppress noise overfitting in NIRL reconstructions. We demonstrate the performance of NIRL-FLIP on a range of simulated PPS models with bootstrap estimates of reconstruction uncertainty obtained from simulated realizations, and show that both our estimator and regularization are robust, accurate and precise, and are able to both reduce lensing induced reconstruction bias and suppress noise overfitting by a significant factor in Fourier space. We provide a detailed description of these results and recommend its utility for future model independent searches for hints of novel physics in the form of deviations from a power law PPS. This can further assist in precise and accurate testing of inflation models, in conjunction with joint cosmological parameter estimation.
-#### A New AI/ML Based Image Reconstruction Technique for Hard X-ray Coded Aperture Imagers
- - **Authors:** Shayla Sharmin, Branden Allen
+ In the standard cosmological model, galaxies forming within dark matter haloes are the primary drivers of the Epoch of Reionization (EoR). The complex physics of galaxy formation introduces scatter in the relation between halo mass and star-formation activity, with implications for the production and escape of ionising photons. In this work, we implement a stochastic source model in our cosmological radiative transfer simulations. We calibrate our model against the high-redshift ultraviolet luminosity function observed by JWST and observational constraints on Lyman-continuum leakage to constrain the ionising escape fraction. We find that stochastic star formation redistributes ionising emissivity toward lower-mass haloes, producing a more fragmented ionisation topology and delaying the growth of the largest ionised regions relative to the deterministic, observationally calibrated model. However, when the two models match total ionising photon production, their global neutral fractions and 21-cm power spectrum remain nearly indistinguishable, despite small differences in the morphology of individual ionised regions. Additionally, we establish a unified framework that lets us apply source models derived from computationally expensive hydrodynamical simulations (SPICE, FIRE-2 and Thesan) and investigate their impact on large-volume reionisation simulations, extending their prescriptions to scales of >100 Mpc. We find that these prescriptions produce distinct ionisation topologies and 21-cm statistical signatures, even when their global reionisation histories are similar. Our results highlight the importance of combining physically motivated galaxy formation prescriptions from hydrodynamical simulations with large-volume radiative transfer simulations to interpret forthcoming 21-cm observations and constrain the sources of cosmic reionisation.
+#### Forecasting the Resolvability of Stellar Velocity Dispersions in Ultra-faint Dwarf Galaxies
+ - **Authors:** Pierre Thibodeaux, Alex Drlica-Wagner, Alexander P. Ji, Chin Yi Tan, Ting S. Li, Andrew B. Pace, Louis E. Strigari
  - **Subjects:** Subjects:
-Instrumentation and Methods for Astrophysics (astro-ph.IM); High Energy Astrophysical Phenomena (astro-ph.HE)
- - **Arxiv link:** https://arxiv.org/abs/2610.22709
+Astrophysics of Galaxies (astro-ph.GA)
+ - **Arxiv link:** https://arxiv.org/abs/2610.24563
 
- - **Pdf link:** https://arxiv.org/pdf/2610.22709
+ - **Pdf link:** https://arxiv.org/pdf/2610.24563
 
  - **Abstract**
- Here we demonstrate a new AI/ML based image reconstruction method for coded-aperture instruments that provides a pathway for embedded real-time use on-board spaceflight missions. Using the Swift Burst Alert Telescope (BAT) for our initial simulated demonstration, we used our new technique to replace the standard Fast Fourier Transform (FFT) based image reconstruction pipeline. In our alternative approach, we have created a neural network that maps detector counts directly to source positions using simulated responses from selected Swift Burst Alert Telescope (BAT) observations. The network combines convolutional feature extraction with attention and is trained at around 900 source counts. Under zero background noise, it achieves over 93\% exact-pixel localization accuracy with 400 detected source photons. The model maintains at least 90\% exact-pixel localization accuracy with up to 8{,}500 added background counts for sources with 900 detected photons. Within the evaluated region of BAT's field of view, these results show that source position can be recovered from sparse coded-aperture measurements in a wide-field instrument. A key feature of this technique is that explicit inclusion of the mask pattern is not required. This allows us to train the algorithm to "see" using data accumulated from an imaging system. These new non-traditional imaging techniques show substantial promise in enabling efficient imaging using non-planar geometries, which will enable new classes of hard X/$\gamma$-ray imaging systems and simultaneously improve imaging capability for currently operating instruments.
-#### Gaia in Technicolor. I. A Simple Variability-Encoded Color-Magnitude Diagram
- - **Authors:** Brad N. Barlow, Bennett C. Kirby
+ Ultra-faint dwarf galaxies (UFDs)---the smallest and most dark-matter dominated galactic systems---push the boundaries of our understanding of galaxy formation in the cold dark matter paradigm. As current and near-future imaging surveys continue to expand the known population of extremely faint systems, spectroscopic resources have become a major limitation in our ability to understand the physical nature of these systems. We present projections for the capability of Keck/DEIMOS, Magellan/IMACS, and future spectroscopic instruments (e.g., Magellan/Via and GMT/GMACS) to kinematically distinguish dark-matter-dominated UFDs from dark-matter-free star clusters in the ultra-faint regime. We simulate ensembles of mock observations of ultra-faint dwarf galaxies and apply a formal statistical framework, calibrated to observations, to systematically characterize the ability to resolve velocity dispersions as a function of satellite properties. Our projections suggest that current instruments will struggle to resolve many of systems that will be discovered by the Rubin Observatory. Near future instruments will be capable of resolving a majority of these systems, though they will fail for the faintest and most distant systems. Ultimately, we will require even more advanced instruments, with enhanced stability and velocity precision, to classify the full population of ultra-faint Milky Way satellites.
+#### Attitude Estimation of Falcon 9 Rocket Body Based on Photometric Characteristics
+ - **Authors:** Hui Li, Rong-Wang Li, Ru-Feng Tang, Yu-Qiang Li
  - **Subjects:** Subjects:
-Solar and Stellar Astrophysics (astro-ph.SR); Astrophysics of Galaxies (astro-ph.GA); Instrumentation and Methods for Astrophysics (astro-ph.IM)
- - **Arxiv link:** https://arxiv.org/abs/2610.22804
+Instrumentation and Methods for Astrophysics (astro-ph.IM)
+ - **Arxiv link:** https://arxiv.org/abs/2610.24596
 
- - **Pdf link:** https://arxiv.org/pdf/2610.22804
+ - **Pdf link:** https://arxiv.org/pdf/2610.24596
 
  - **Abstract**
- The Hertzsprung-Russell diagram is one of the most important tools in stellar astrophysics. In its modern, empirical form as the Gaia color-magnitude diagram (CMD), each star is represented with a point determined from its time-averaged brightness and color. However, many stars are intrinsically variable, and the fixed-point representation ignores the variety of ways in which a star can vary. As a system pulsates, eclipses, is irradiated, erupts, or otherwise varies, it moves through the CMD along a trajectory whose size, slope, and shape are determined by the physics driving the brightness and color variability. Here we exploit the near-simultaneous, three-band, multi-epoch photometry (MEP) released for ~11.7 million sources in Gaia DR3 to construct a variability-encoded CMD (VECMD). In this updated take on the traditional CMD, each star is represented not by a point but by a linear segment approximating the path it traces in absolute magnitude and color as it varies. Because these trajectories are built from the raw epoch data, they are agnostic to period and do not require phase-folding. We show that radial-mode pulsators trace looped, Lissajous-like trajectories that can encode the phase lag between radius and temperature. The Hertzsprung bump is even visible in the CMD loops of some Cepheids. Variable binary systems can trace tight color-correlated lines and/or hooked paths. Accreting and dust-obscured systems trace long, high-amplitude tracks aligned with the outburst or reddening vector. Distinct regions of the VECMD are dominated by distinct trajectory morphologies. We argue that these trajectories are period-independent fingerprints well suited to machine learning classification, which we will pursue on the much larger epoch-photometry sample expected in Gaia DR4. Finally, we present a free app called IVECMD for finding, classifying, and analyzing variable stars in the VECMD.
-#### A Neural Network - Based Tool for Rapid Orbital Solution of Contact Binary Systems
- - **Authors:** Li-Heng Wang, Kai Li, Ya-Ni Guo
+ The proliferation of space debris, driven by increasingly frequent space activities, poses a severe risk to operational satellites and future missions. Consequently, the surveillance and characterization of space objects have become critical. Current methods for attitude estimation of space objects often rely on target-specific models, such as those with a closed set of facets, and typically employ nonlinear filtering or machine learning techniques. However, these approaches often lack general applicability. This study proposes a more general approach to attitude estimation based on photometric light curves. We define a loss function that quantifies the discrepancy between the measured light curve and a theoretical model parameterized by the attitude parameters. By leveraging automatic differentiation to compute the gradients of this function, we use a gradient descent algorithm to achieve rapid and accurate attitude estimation. The proposed method provides a versatile and efficient framework for attitude estimation, overcoming the target-specificity limitations of existing techniques, with the parameters estimation time reduced to 15 seconds and the mean square error lowered to three decimal places. Validation on the third-party database demonstrates that the method exhibits strong generalization capability.
+#### Galactic warps constrain equivalence-principle violation in the dark sector
+ - **Authors:** Harry Desmond, Pedro G. Ferreira
  - **Subjects:** Subjects:
-Solar and Stellar Astrophysics (astro-ph.SR); Instrumentation and Methods for Astrophysics (astro-ph.IM)
- - **Arxiv link:** https://arxiv.org/abs/2610.23410
+Cosmology and Nongalactic Astrophysics (astro-ph.CO); Astrophysics of Galaxies (astro-ph.GA)
+ - **Arxiv link:** https://arxiv.org/abs/2610.24618
 
- - **Pdf link:** https://arxiv.org/pdf/2610.23410
+ - **Pdf link:** https://arxiv.org/pdf/2610.24618
 
  - **Abstract**
- With the rapid growth of large-scale time-domain surveys, vast amounts of photometric and spectroscopic data are continuously being released. A substantial number of contact binaries have been identified, accompanied by both light curves and radial velocity observations. Traditional modeling of these datasets relies on computationally intensive physical models, which limits their applicability to large-scale analyses. To this end, this paper proposes the use of a fully connected neural network and a SIREN (Sitzmann et al. 2020) model to rapidly generate radial velocity curves. After training, the models can rapidly generate radial velocity curves with high accuracy, significantly reducing computational costs and enabling efficient large-scale studies. This method was further integrated with the light curve computation framework developed by Li et al. (2025), allowing simultaneous fitting of radial velocities and light curves. To assess the reliability of the proposed model, synthetic observational datasets were constructed and used for parameter estimation. The deviations between the derived parameters and the ground-truth values were analyzed quantitatively, enabling a comprehensive evaluation of the model's accuracy.
+ Current measurements of the expansion of the Universe allow for the presence of evolving dark energy, distinct from a cosmological constant, with an equation of state that seems to violate the null energy condition. One notable explanation for this behaviour is that the dark energy interacts with the dark matter, violating the equivalence principle yet evading conventional laboratory and astrophysical constraints. Such models produce fifth forces acting only on dark matter. We show how such forces separate halo and stellar disk centres, creating a potential gradient across the disk that warps it into a cup shape. Measuring the warps of $4\times10^3$ edge-on disks in Sloan Digital Sky Survey images and modelling the fifth-force signal together with competing baryonic effects, we find no sign of the predicted correlation between the measured warps and the fifth-force field. This constrains the fifth-force strength relative to gravity to $\Delta G/G_N<7.7\times10^{-4}$ at 95% credibility (or $<1.7\times10^{-3}$ once systematic uncertainties are included) for force ranges of 8 Mpc and above. In the infinite-range limit of a scalar rolling today, even the conservative bound is three times stronger than the tightest cosmological bound (which, unlike ours, depends on the scalar's cosmological evolution) and about two orders of magnitude below other astrophysical bounds. It disfavours at 2-3$\sigma$ the couplings preferred by recent fits of interacting dark energy to cosmological data unless gravitational screening is invoked.
+#### Single-Transit Parameter Estimation with Calibrated Uncertainties
+ - **Authors:** Helem Salinas, Rafael Brahm, Greg Olmschenk, Melinda Soares-Furtado, Karim Pichara, Joshua E. Schlieder
+ - **Subjects:** Subjects:
+Earth and Planetary Astrophysics (astro-ph.EP); Instrumentation and Methods for Astrophysics (astro-ph.IM)
+ - **Arxiv link:** https://arxiv.org/abs/2610.24882
+
+ - **Pdf link:** https://arxiv.org/pdf/2610.24882
+
+ - **Abstract**
+ The growing volume of photometric data from current and upcoming exoplanet surveys demands automated analysis pipelines to detect and characterize exoplanet transit signals. Among these, single-transit events present a challenge, since only one event is observed, and standard transit-fitting techniques for periodic signals do not directly apply because they rely on phase-folding. Beyond detection, characterizing these events is equally critical for follow-up, yet existing approaches are either sensitive to stellar variability and require prior detrending, or depend on stellar priors and per-target fitting. This work presents a convolutional neural network that predicts transit depth, duration, and mid-transit time, together with calibrated uncertainties, directly from a single transit signal. Our network is trained on synthetic light curves and evaluated against a trapezoidal least-squares baseline. On 120 confirmed exoplanets, both methods achieve comparable median errors, but the baseline fails to locate the transit in 10% of cases, producing unreliable estimates that would propagate into follow-up prioritization. In contrast, our network fails in only 1% of cases, yields lower mean absolute errors, and does not require detrending or stellar priors. Detrending would distort or remove the transit along with high stellar variability, precisely where the baseline fails and our network succeeds. Finally, we identify 169 new transit candidates in TESS Sectors 27-60 and apply our approach to obtain their physical parameters, creating a catalog that includes single-transit, multi-transit and multi-planet systems. This approach offers a scalable path toward automated characterization of single transit events, a population that will grow with upcoming surveys.
+#### Gravitational Instability of Cold Axion Dark Matter Beyond Minimal Coupling
+ - **Authors:** Bryan Cordero-Patino, Álvaro Duenas-Vidal, Jorge Segovia
+ - **Subjects:** Subjects:
+Cosmology and Nongalactic Astrophysics (astro-ph.CO); High Energy Physics - Phenomenology (hep-ph); High Energy Physics - Theory (hep-th)
+ - **Arxiv link:** https://arxiv.org/abs/2610.25984
+
+ - **Pdf link:** https://arxiv.org/pdf/2610.25984
+
+ - **Abstract**
+ Following recent observations of unexpectedly massive galaxies at high redshift by the James Webb Space Telescope, the revision of Dark Matter (DM) models --specifically regarding how DM couples to gravity-- has become a central topic in Cosmology. In this paper, we develop an axion model for Cold Dark Matter (CDM) with a non-minimal coupling to gravity. From this framework, we evaluate the gravitational instability in the hydrodynamic limit. Our results demonstrate how gravitational instabilities depend on the non-minimal coupling parameter, providing a novel tool for aligning with the high-redshift observations from the James Webb Space Telescope.
+#### Effect of galaxy mergers on dust masses
+ - **Authors:** W. J. Pearson, M. Romano, K. Małek, D. Donevski, K. Lisiecki, A. P. Cotter, S. Dey, T. Goto, S. C.-C. Ho, D. J. Santos
+ - **Subjects:** Subjects:
+Astrophysics of Galaxies (astro-ph.GA)
+ - **Arxiv link:** https://arxiv.org/abs/2610.26166
+
+ - **Pdf link:** https://arxiv.org/pdf/2610.26166
+
+ - **Abstract**
+ Dust mass (M$_{Dust}$) is one of the key physical properties of galaxies that track the cold interstellar medium. However, the M$_{Dust}$ in merging galaxies is poorly understood. We aim to derive how the cold dust mass of galaxies is affected by major mergers at low redshifts. M$_{Dust}$ was estimated for approximately 500 major mergers in the North Ecliptic Pole extragalactic field using spectral energy distribution fitting runs with CIGALE, with different dust attenuation and emission models. We also analysed over 12 000 mergers from the SIMBA simulation using its M$_{Dust}$. We matched merging and non-merging systems in stellar mass, redshift, and local density, to enable a comparison of M$_{Dust}$. We then performed a second comparison using a control sample also matched in SFR. AGN host galaxies were then removed, and this matching repeated. Observed mergers have larger M$_{Dust}$ than the non-mergers by up to a factor of 1.82$\pm$0.35, or 1.60$\pm$0.44 without AGN-hosts. When matched by SFR, observed mergers show no significant change in M$_{Dust}$, both when including and excluding AGN-hosts. SIMBA galaxies show similar trends when AGN-hosts are included but there is still an increase in M$_{Dust}$ when matched by SFR. When AGN-hosts are excluded, the SIMBA mergers show smaller M$_{Dust}$ by a factor of 0.98$\pm$0.03, or 0.97$\pm$0.02 when matched in SFR. The higher the mass of a merger, the greater M$_{Dust}$ increase for observations for two of the CIGALE runs, or the smaller the decrease for SIMBA. Observed mergers are typically more dusty than their non-merging counterparts but only because they typically have higher SFRs, regardless of whether they host AGN or not. SIMBA mergers follow observations when AGN hosts are included, but show reduced M$_{Dust}$ when AGN hosts are removed. M$_{Dust}$ in SIMBA is linked to AGN in a way not seen in observations.
 
 
 by olozhika (Xing Yuchen). 
 
 
-2026-10-19
+2026-10-20
