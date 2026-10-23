@@ -1,4 +1,4 @@
-# Showing new listings for Thursday, 22 October 2026
+# Showing new listings for Friday, 23 October 2026
 Auto update Star Formation & Molecular Cloud papers at about 2:30am UTC (10:30am Beijing time) every weekday.
 
 
@@ -13,120 +13,80 @@ Keyword list: ['gravitational lensing', 'strong lensing', 'dark matter', 'machin
 Excluded: ['black hole', 'ISM', 'WIMP', 'BH']
 
 
-### Today: 11papers 
-#### A Hybrid Neural Network Emulator for M1 Neutrino Reaction Rates in Binary Neutron Star Merger Simulations
- - **Authors:** Yi Qiu, David Radice, Raffaele Ferrari, Albino Perego
+### Today: 7papers 
+#### SIGNN++: Robust Graph Neural Star Identification on Earth
+ - **Authors:** Jeongbin Sohn, Jina Lee, Max Yen, Dowan Gwon, Jeahn Han, Floyd Hepburn-Dickins, Brian Coltin, Ryan Soussan, Pyojin Kim
  - **Subjects:** Subjects:
-High Energy Astrophysical Phenomena (astro-ph.HE)
- - **Arxiv link:** https://arxiv.org/abs/2610.28740
+Instrumentation and Methods for Astrophysics (astro-ph.IM); Machine Learning (cs.LG)
+ - **Arxiv link:** https://arxiv.org/abs/2610.30186
 
- - **Pdf link:** https://arxiv.org/pdf/2610.28740
+ - **Pdf link:** https://arxiv.org/pdf/2610.30186
 
  - **Abstract**
- We present a neural network emulator for the bns_nurates library, which computes neutrino reaction rates used in binary neutron star merger simulations. Following a hybrid strategy, we emulate only the computationally dominant two-dimensional reactions---pair processes, bremsstrahlung, and inelastic neutrino-electron scattering---while evaluating the inexpensive one-dimensional processes still with bns_nurates. We find that the emulator reproduces the opacities to within a few percent across the relevant thermodynamic conditions and accelerates their evaluation by roughly an order of magnitude. When deployed in a global Athenak binary neutron star merger simulation, it recovers the remnant structure, neutrino luminosities, and ejecta composition of a reference run using the full bns_nurates library, at approximately half the overall cost
-#### Gravothermal Evolution of Self-Interacting Dark Matter Halos across Knudsen Numbers
- - **Authors:** James Gurian, Suroor Seher Gandhi, Neal Dalal, Simon May
+ We present SIGNN++, a learning-based star identification (SID) framework for celestial navigation in GNSS-denied nighttime environments. Although researchers have developed learning-based SID methods to improve robustness to observation noise, prior evaluations have focused mainly on synthetic or non-terrestrial environments, leaving their reliability under real terrestrial conditions unclear. To address these limitations, SIGNN++ extends SIGNN, a graph neural network-based SID method, with three components: a more realistic noise model for training data, Fourier Transform (FT) of angular-distance edge features, and RANSAC-based Perspective Star Alignment for identification and attitude refinement. The results show that SIGNN++ is more robust to terrestrial observation disturbances and achieves higher star identification accuracy and solved rates than the original SIGNN and publicly available SID baselines, while maintaining comparable attitude accuracy and practical computation time for continuous operation. The implementation code of SIGNN++ and datasets will be available at this https URL.
+#### Astro2Method: Benchmarking LLMs on Machine Learning Method Selection in Astronomy
+ - **Authors:** Xingzhong Fan, Hangfeng He, Fatemeh Nargesian
+ - **Subjects:** Subjects:
+Instrumentation and Methods for Astrophysics (astro-ph.IM)
+ - **Arxiv link:** https://arxiv.org/abs/2610.30282
+
+ - **Pdf link:** https://arxiv.org/pdf/2610.30282
+
+ - **Abstract**
+ Machine learning (ML) is increasingly used in astronomy, but choosing a suitable method for a scientific problem often requires expertise in both astronomy and ML. Large language models (LLMs) could help astronomers make such choices, yet this ability remains underexplored in existing benchmarks. We introduce Astro2Method, a benchmark of 500 expert-reviewed binary questions from 346 astronomy papers (2024/01-2026/06), based on clear performance differences and complete (Easy) or partial (Hard) explanations from the authors. Across five LLMs, direct prompting achieves 87.50-92.55% accuracy on Easy questions but only 58.87-64.52% on Hard. Using historical papers, neither retrieval-augmented generation nor most agent methods with additional reasoning or retrieval (including ReAct, Self-Ask, and CRITIC) bring consistent improvement. Agents required to search the web improve accuracy mainly when they find the papers the questions are based on, with no consistent improvement otherwise. Providing the source paper's pipeline description with method names masked improves Hard accuracy, matching or exceeding web search. Together, these results suggest that relevant experimental information helps distinguish ML methods, but inferring it from related studies and domain knowledge remains challenging for LLMs in astronomy.
+#### Optimal cosmological cross-correlation analysis with U-Net-based processing
+ - **Authors:** Weitong Yan, Daniel Grün, Oliver Friedrich, András Kovács
  - **Subjects:** Subjects:
 Cosmology and Nongalactic Astrophysics (astro-ph.CO)
- - **Arxiv link:** https://arxiv.org/abs/2610.28745
+ - **Arxiv link:** https://arxiv.org/abs/2610.30294
 
- - **Pdf link:** https://arxiv.org/pdf/2610.28745
+ - **Pdf link:** https://arxiv.org/pdf/2610.30294
 
  - **Abstract**
- If the dark matter self-interacts elastically via a light mediator, then at relative velocities above a scale $w$ dictated by particle physics parameters, the cross section scales as $\sigma \propto v^{-4}$. Depending on the value of $w$, the self-interaction cross section in low-mass halos could be (much) larger than has been previously studied extensively. We perform kinetic simulations of isolated self-interacting dark matter halos using the code KiSS-SIDM for a wide range of halo masses, concentrations, and cross sections from $50 \,\mathrm{cm}^2 \, \mathrm{g}^{-1}$ to $250{,}000 \, \mathrm{cm}^2 \, \mathrm{g}^{-1}$, including several velocity-dependent and fully differential (anisotropic) cross sections. We demonstrate that for idealized NFW halos the collapse time can be predicted from the Knudsen number at the scale radius of the halo. We perform similar calculations for halos extracted from cosmological simulations using either $N$-body (collisionless) or SPH (strongly collisional) dynamics, and then evolve cutouts with KiSS-SIDM. For these halos, the collapse times differ from the idealized NFW simulations by up to a factor of a few. Further, we calibrate a hydrostatic fluid model to these results, which solves the structure equations as a boundary value problem via two-point shooting. The fluid calculation predicts that for velocity-independent cross sections, a convective region of the halo develops late in the collapse. The collapse times agree well between the kinetic simulations and the fluid code, especially in the velocity-independent case. The density profiles agree well in some cases, which include all of the velocity-dependent cross section runs.
-#### Link between the properties of circumgalactic outflows and the recent star formation history of their host galaxies
- - **Authors:** Ismael Pessa, Lutz Wisotzki, Constanza Muñoz López, Tanya Urrutia, Ramona Augustin, Thierry Contini, Yucheng Guo, Daria Kozlova, Haruka Kusakabe, Sowgat Muzahid, John Pharo
+ Cosmological cross-correlation analyses are commonly based on two-point statistics, which are optimal for Gaussian random fields but do not capture all relevant information in the presence of non-Gaussianity, which is ubiquitous in late-time cosmic fields. This motivates investigations of higher order statistics, and one method is to use machine learning to construct a correlation-optimized tracer field that can utilize cross-correlation information beyond two-point statistics. Using a tracer field as input and a paired target field as part of the cost function, we test whether a U-Net can learn a transformed tracer field that maximally correlates with the target field. We train a 1D U-Net on paired simulated fields and study controlled cases based on Gaussian and log-normal random fields. We train and quantify performance using the Pearson correlation coefficient with the target field and compare the network output with the analytic linear solution known in the Gaussian limit. For Gaussian fields, the U-Net reproduces the expected linear solution closely and behaves as an effective matched filter in frequency space. For log-normal fields, the network departs from the linear estimator and achieves an improved correlation with the target field, increasing the mean Pearson correlation from 0.857 for the linear estimator to 0.953 for the U-Net output. This indicates that the network is sensitive to information beyond the power spectrum. These controlled 1D experiments show that U-Net-based tracer transformation can effectively extract correlation-relevant information beyond the power spectrum, providing a promising framework for enhancing cosmological cross-correlation analyses.
+#### Constraints on interacting dark energy with a constant equation of state in light of DESI DR2: The role of the interaction term
+ - **Authors:** Zhao-Yu Li, Tian-Nuo Li, Guo-Hong Du, Sheng-Han Zhou, Yun-He Li, Jing-Fei Zhang, Xin Zhang
+ - **Subjects:** Subjects:
+Cosmology and Nongalactic Astrophysics (astro-ph.CO); General Relativity and Quantum Cosmology (gr-qc); High Energy Physics - Phenomenology (hep-ph)
+ - **Arxiv link:** https://arxiv.org/abs/2610.30784
+
+ - **Pdf link:** https://arxiv.org/pdf/2610.30784
+
+ - **Abstract**
+ Recent DESI baryon acoustic oscillation (BAO) analyses suggest a preference for an evolving dark energy equation of state (EoS) that crosses the phantom divide $w=-1$. Interactions between dark energy and dark matter can also produce an apparent phantom-divide crossing in the effective dark energy EoS. In this work, we investigate interacting dark energy (IDE) models with a constant EoS parameter $w$, using cosmic microwave background (CMB) observations from Planck, ACT, and SPT, DESI DR2 BAO measurements, and type Ia supernova data from PantheonPlus, DES-Dovekie, and DESY5. We consider four typical forms of the interaction term $Q$. Our results show that the IDE models with $Q\propto\rho_{\rm de}$ generally exhibit a stronger preference for nonzero dark-sector interactions. In particular, for the CMB+DESI+DES-Dovekie data, the IDE model with $Q=\beta H_0\rho_{\rm de}$ yields $\beta=-2.52^{+0.80}_{-0.54}$ and $w=-1.510^{+0.170}_{-0.120}$, corresponding to deviations from $\beta=0$ and $w=-1$ at the $3.2\sigma$ and $3.0\sigma$ levels, respectively. Interestingly, the effective EoS of the IDE model with $Q=\beta H_0\rho_{\rm de}$ exhibits a redshift evolution resembling that of the $w_0w_a$CDM model, crossing the phantom divide. Bayesian evidence further indicates that this IDE model is favored over $\Lambda$CDM and the other three IDE models. Our analysis helps identify which interaction forms better account for current cosmological observations.
+#### Simulation-based inference of profile evolution for high-precision pulsar timing
+ - **Authors:** Sai C. Susarla, Gregory Ashton, A. Parthasarathy, K. De Man, J. P. W. Verbiest
+ - **Subjects:** Subjects:
+Instrumentation and Methods for Astrophysics (astro-ph.IM); High Energy Astrophysical Phenomena (astro-ph.HE)
+ - **Arxiv link:** https://arxiv.org/abs/2610.31450
+
+ - **Pdf link:** https://arxiv.org/pdf/2610.31450
+
+ - **Abstract**
+ Pulsars are exceptional cosmic laboratories, the most stable of which rival atomic clocks. Nearly all of that precision rests on one observable, the average pulse profile unique to each pulsar and stable over decades. These profiles change shape systematically with observing frequency, reflecting the physics of the emitting pulsar beam, but if left unmodelled, it can bias the arrival-time measurements, undermining precision timing. Profile-domain timing has been proposed to address this effect, but current implementations use stochastic sampling, which is computationally prohibitive and has limited the application in large-scale analyses. Here, we present a simulation-based inference approach to profile-domain timing, using a normalising flow conditioned on a convolutional embedding of the frequency-phase portrait. From a single portrait, it returns joint posteriors on dispersion measures, arrival times, and the parameters governing profile evolution instantaneously, with uncertainties verified against known inputs following an initial training run. The value of a likelihood-free approach is that the simulator becomes the interface to pulsar properties. Fundamental properties like non-Gaussian noise, pulsar self-noise, jitter, scattering, and profile change can be inferred by simulating them rather than by deriving a new likelihood for each, opening a promising pathway to include machine learning methods into pulsar timing workflows.
+#### SpecLess: A Multi Survey Python Package for Machine Learning Classification of Galaxy Morphology and Activity from Photometry
+ - **Authors:** Uzay Aydin, Mehmet Tanriver
  - **Subjects:** Subjects:
 Astrophysics of Galaxies (astro-ph.GA)
- - **Arxiv link:** https://arxiv.org/abs/2610.28752
+ - **Arxiv link:** https://arxiv.org/abs/2610.31545
 
- - **Pdf link:** https://arxiv.org/pdf/2610.28752
+ - **Pdf link:** https://arxiv.org/pdf/2610.31545
 
  - **Abstract**
- Galactic outflows play a key role in galaxy evolution, yet their connection to the star formation history of their host galaxies remains poorly constrained. Building on previous work modeling extended Mg II emission of galaxies observed with VLT/MUSE to infer outflow properties, we investigate how these properties depend on the recent SFH. We derive non-parametric SFHs by fitting spectroscopic and photometric data with linear combinations of single stellar population models, and compute star formation rates over different timescales sensitive to recent stochastic bursts. We find moderate correlations between these SFRs (and sSFRs) and the kinematic properties of the outflows, namely maximum velocity and radial acceleration rate. Such correlations are not recovered using SFR tracers based on [O II] luminosity or parametric SFHs, highlighting the importance of capturing bursty star formation on timescales consistent with the traveling time of ejected gas into the circumgalactic medium. Using the extent and kinematics of the Mg II halos, we estimate each galaxy's outflow launching time and compute the SFR averaged over the relevant timescale. We identify a correlation between this SFR and the maximum outflow velocity, although it is not significantly stronger than those obtained using fixed averaging timescales. This suggests that the properties of Mg II halos are shaped by a series of star formation events rather than by a single dominant burst. Lastly, we find faster outflows in galaxies whose recent star formation is dominated by one or a few concentrated episodes, whereas galaxies with star formation spread more evenly over time exhibit slower outflows. These results indicate that the circumgalactic medium acts as a dynamical archive of recent star formation, linking bursty galaxy growth to outflow kinematics and providing a direct observational constraint on feedback models.
-#### PIANISTpy: A JAX-based Python package for velocity-anisotropic astrophysical equilibrium models
- - **Authors:** Barry T. Chiang, Frank C. van den Bosch, Hsi-Yu Schive
+ Broad band photometry enables scalable galaxy classification without spectroscopy at inference time, yet strong within survey performance may not transfer when the same galaxies are measured by another survey. We present SpecLess, an open source Python package implementing two photometric classification tasks: high confidence Galaxy Zoo 1 elliptical and spiral morphologies, and four SDSS spectroscopic activity reference classes (starforming, starburst, Seyfert, and LINER). Using SDSS+AllWISE, KiDS+VIKING, and DESI Legacy Imaging Surveys photometry, survey specific XGBoost classifiers achieve held out macro F1 scores of 0.9332 (SDSS; 35,554 galaxies) and 0.9237 (KiDS; 3,269) for morphology, and 0.7637 (SDSS; 16,931) and 0.7398 (DESI; 11,975) for activity. Starforming and starburst references are recovered more effectively than Seyfert and LINER, while feature ablations reveal complementary contributions from optical and mid infrared photometry. We quantify catalogue dependence using separately trained common feature models evaluated on matched galaxies with identical labels and data partitions. Relative to target trained models, macro F1 deficits are 0.0153 (SDSS to KiDS) and 0.0354 (KiDS to SDSS) for morphology (12,301 galaxies; 20 splits), and 0.0660 (SDSS to DESI) and 0.0406 (DESI to SDSS) for activity (11,975 test galaxies). Colour only refits, additive corrections, and optical infrared substitutions reveal direction dependent sensitivity without consistently recovering target trained performance. SpecLess v0.3.0 distributes four pretrained, survey specific classifiers through a unified Python interface. The package provides a reproducible baseline for photometric galaxy classification across multiple surveys while establishing an extensible, open source foundation for future developments in classification methods and photometric catalogue support.
+#### A Robust Estimator for the Lyman-$α$ Forest 1D Power Spectrum at High Redshift
+ - **Authors:** Molly Wolfson, Joseph F. Hennawi, Frederick B. Davies, Zarija Lukić
  - **Subjects:** Subjects:
-Astrophysics of Galaxies (astro-ph.GA); Cosmology and Nongalactic Astrophysics (astro-ph.CO); Instrumentation and Methods for Astrophysics (astro-ph.IM); High Energy Physics - Phenomenology (hep-ph)
- - **Arxiv link:** https://arxiv.org/abs/2610.28758
+Cosmology and Nongalactic Astrophysics (astro-ph.CO); Astrophysics of Galaxies (astro-ph.GA)
+ - **Arxiv link:** https://arxiv.org/abs/2610.31626
 
- - **Pdf link:** https://arxiv.org/pdf/2610.28758
-
- - **Abstract**
- The hierarchical assembly of dark matter haloes and galaxies via mergers and anisotropic mass accretion naturally imprints non-trivial velocity anisotropy onto haloes and galaxies, an empirical fact emerging from cosmological simulations. However, dynamical studies based on idealised numerical simulations typically assume isotropic velocity distributions for the systems studied. This is mainly because no tools exist to construct anisotropic initial conditions with fully self-consistent (i.e., physical and instability-free) truncation boundary conditions for finite spatial extents. Here we present the first such analytical framework that performs truncation in phase space, with two distinct approaches to guarantee either the monotonicity of output distribution functions or identical truncated density profiles. We additionally present the open-source JAX-based GPU-accelerated Python package PIANISTpy (Particle Initial conditions with ANISoTropy) for constructing spherical, non-rotating initial conditions, supporting arbitrary double-power-law analytical radial density profiles and a library of analytical anisotropy profiles. This framework further permits the construction of systems with non-analytical anisotropy profiles via an arbitrary linear superposition of all implemented analytical anisotropy models as basis functions. PIANISTpy also outputs 3D velocity profiles and line-of-sight-integrated observables with end-to-end differentiability for rapid gradient-based Monte Carlo inference, and self-consistent local dark matter velocity distributions of anisotropic haloes beyond the unphysical Maxwell-Boltzmann simplification adopted in terrestrial detection experiments. We discuss use cases and demonstrate PIANISTpy's orders-of-magnitude higher numerical solver accuracy and superior dynamical stability of particle initial conditions relative to existing tools, including galpy and AGAMA.
-#### Magnetic monopoles produced by first-order phase transition
- - **Authors:** Yuefeng Di, Ligong Bian, Rong-Gen Cai
- - **Subjects:** Subjects:
-Cosmology and Nongalactic Astrophysics (astro-ph.CO); General Relativity and Quantum Cosmology (gr-qc); High Energy Physics - Lattice (hep-lat); High Energy Physics - Phenomenology (hep-ph)
- - **Arxiv link:** https://arxiv.org/abs/2610.29349
-
- - **Pdf link:** https://arxiv.org/pdf/2610.29349
+ - **Pdf link:** https://arxiv.org/pdf/2610.31626
 
  - **Abstract**
- We present the first 3D lattice simulations of magnetic monopole production from a first-order phase transition, using the Press-Ryden-Spergel method, capturing the subsequent annihilation stage and the entry into the scaling regime in an expanding universe. We establish the quantitative relationship between the initial bubble number and the residual monopole abundance, and calculate the magnetic field and gravitational wave power spectra sourced by monopole dynamics. Crucially, we find that the magnetic field spectrum displays a steep $k^{-5}$ decline beyond the monopole size $w_M$, whereas the peak of the gravitational wave spectrum aligns with the scale of the mean monopole separation $d_M$, governed by $k^3$ and $k^{-3}$ scalings on the low- and high-wavenumber sides of the peak, respectively. However, since the resulting magnetic field strength is excluded by blazar observations, magnetic monopoles cannot be the origin of primordial cosmic magnetic fields. Finally, we determine the allowed monopole mass under the constraints of the Parker bound ($m_M\lesssim2.18\times10^{11}\,\mathrm{GeV}$) and dark matter abundance ($m_M\lesssim1.58\times10^{12}\,\mathrm{GeV}$).
-#### Data-driven characterisation of variable source light curves with multimodal representation learning
- - **Authors:** M. Madarász, G. Marton, M. Audard
- - **Subjects:** Subjects:
-Instrumentation and Methods for Astrophysics (astro-ph.IM); Solar and Stellar Astrophysics (astro-ph.SR)
- - **Arxiv link:** https://arxiv.org/abs/2610.29412
-
- - **Pdf link:** https://arxiv.org/pdf/2610.29412
-
- - **Abstract**
- Surveys such as the Zwicky Transient Facility (ZTF) and the Vera C. Rubin Observatory Legacy Survey of Space and Time (LSST) produce light curves for hundreds of millions of variables. Their characterisation traditionally relies on supervised classifiers with hand-crafted features and curated labels, limiting them to predefined taxonomies and individual surveys. We present a general, survey-agnostic framework that characterises variable sources without labelled training data, producing low-dimensional representations of light curve properties such as amplitude, periodicity, and asymmetry. A multimodal architecture combines two complementary views, a Transformer encoder on raw observations and a convolutional neural network on a generalised Lomb-Scargle periodogram. Each light curve is randomly split into two temporal halves as independent views, and the branches are trained jointly with VICReg to produce embeddings invariant across halves while keeping each dimension informative. We evaluate on 37 006 ZTF sources spanning 14 variable star classes in four broad physical categories. A linear classifier on the frozen 64-dimensional embeddings achieves 77.1% balanced accuracy for classes and 90.5% for broad categories. Combining both branches improves balanced accuracy by up to 14.9 percentage points over the best single modality, confirming their complementarity. Interpretable light curve properties are encoded on distinct dimensions, and within-class analysis reveals physical substructure unresolved by reference labels. Retraining on ZTF g and i bands without modification reproduces the main results, and concatenating multi-band embeddings improves balanced accuracy to 86.1%. The framework needs no labels, phase folding, or survey-specific preprocessing and applies directly to other surveys with different cadences and wavelength coverage.
-#### Domain models of turbulent magnetic fields and the spectral shape of ensemble averaged axion-photon conversion
- - **Authors:** Oleksandr Khasai, Lidiia Zadorozhna, Denys Malyshev, Oleg Ruchayskiy
- - **Subjects:** Subjects:
-High Energy Astrophysical Phenomena (astro-ph.HE); Cosmology and Nongalactic Astrophysics (astro-ph.CO); High Energy Physics - Phenomenology (hep-ph)
- - **Arxiv link:** https://arxiv.org/abs/2610.29541
-
- - **Pdf link:** https://arxiv.org/pdf/2610.29541
-
- - **Abstract**
- Axion-like particles are light pseudoscalars that appear in many extensions of the Standard Model and are candidates for dark matter. Through their mixing with photons, they imprint energy dependent modulations on the spectra of astrophysical sources shining through magnetised media. When a distant source shines through the turbulent magnetic field of an intervening galaxy cluster, these modulations are stochastic. It has recently been shown that averaging over an ensemble of such sources instead produces a smooth absorption-like feature. In this work we derive the analytic form of this ensemble averaged signal, previously known only numerically. We further relate the index $a$ of the magnetic field energy spectrum to the index $\beta$ of the domain size distribution that simulations use to describe the turbulent field. For $1<a<2$ the two indices obey the simple analytic relation $\beta=3-a$. Any distribution with $\beta<1$ instead mimics the spectral index $a=2$, which the sharp domain walls impose. For Kolmogorov turbulence, relevant for galaxy clusters, the relation gives $\beta=4/3$.
-#### Cosmology of self-interacting ultralight dark matter: simultaneous shifts in the Hubble constant and structure growth
- - **Authors:** Seokcheon Lee, Jae-Weon Lee
- - **Subjects:** Subjects:
-Cosmology and Nongalactic Astrophysics (astro-ph.CO)
- - **Arxiv link:** https://arxiv.org/abs/2610.29582
-
- - **Pdf link:** https://arxiv.org/pdf/2610.29582
-
- - **Abstract**
- We study the cosmology of self-interacting ultralight dark matter. The scalar field evolves from an early Hubble-frozen phase to a quartic-dominated radiation-like phase and finally to a quadratic matter-like phase. The intermediate phase increases the pre-recombination expansion rate and reduces the sound horizon, while the late phase allows the same field to contribute to dark matter. We implement the background and linear perturbations of a mixed cold-dark-matter and ultralight-dark-matter cosmology in CLASS. For $m=10^{-22}\,{\rm eV}$ and $\tilde m\simeq1\,{\rm eV}$, increasing the ultralight-dark-matter fraction raises the fixed-$\theta_*$ value of $H_0$, lowers the late-time clustering amplitude, strengthens the scale-dependent matter-power suppression, and produces a smooth CMB-temperature residual reaching about $9\%$ for the largest fraction considered. The model therefore generates simultaneous background and growth shifts in the directions relevant to the Hubble and structure-growth tensions. Establishing whether these shifts improve a joint fit requires a likelihood-level observational analysis.
-#### Constraining Dynamical Dark Energy with Tomographic Galaxy and CMB Weak Lensing Through Higher-Order Statistics
- - **Authors:** Shu-Fan Chen, J. Colin Hill, Zoltán Haiman
- - **Subjects:** Subjects:
-Cosmology and Nongalactic Astrophysics (astro-ph.CO)
- - **Arxiv link:** https://arxiv.org/abs/2610.29937
-
- - **Pdf link:** https://arxiv.org/pdf/2610.29937
-
- - **Abstract**
- Tomographic weak gravitational lensing probes cosmic structure growth and geometry, making it a powerful probe of dynamical dark energy. We forecast information beyond the lensing power spectrum from non-Gaussian statistics of tomographic galaxy and CMB lensing convergence maps. Using the $\texttt{DDELenS}$ suite of ray-traced $N$-body simulations, we build Gaussian process emulators for power spectra, Minkowski functionals, moments, peak and minima counts, and the wavelet scattering transform, varying $\Omega_m$, $\sigma_8$, $w_0$, and $w_a$. We consider Rubin-like galaxy lensing and Simons Observatory-like CMB lensing over $15{,}000\,\mathrm{deg}^2$, and validate the analysis using a withheld fiducial cosmology, analytical power-spectrum forecasts, and Gaussian random-field null tests. As an initial step, we neglect baryonic effects and intrinsic alignments and approximate galaxy sources as discrete redshift planes. Using all source redshifts at $z_s=\{0.5, 1, 1.5, 2, 2.5, 1100\}$, combining all five non-Gaussian statistics reduces uncertainties on $w_0$ and $w_a$ by $24.3\%$ and $28.0\%$, and on $\Omega_m$ and $\sigma_8$ by $41.9\%$ and $45.8\%$, relative to the power-spectrum-only baseline. The resulting $w_0$ and $w_a$ uncertainties are $34.7\%$ and $48.7\%$ smaller than current DESI+DES constraints. If the DESI+DES best-fit values remain unchanged, this precision would increase the significance of the departure from $\Lambda$CDM from $3.0\sigma$ to $5.2\sigma$, compared with $3.8\sigma$ from the power spectrum alone, assuming a Gaussian posterior and unchanged $w_0$--$w_a$ correlation. Minkowski functionals and moments provide comparable constraining power, while combining them with the other summaries gives the strongest constraints. Broad galaxy-lensing redshift coverage is particularly important for dynamical dark energy, while CMB lensing provides complementary information.
-#### PBR sensitivity to boosted dark matter explanation for the KM3-230213A event
- - **Authors:** M. H. Reno, T. Venters, M. Abrate, J. Adams, J. Alfaro, D. Allard, P. Alldredge, R. Aloisio, R. Ammendola, A. Anastasio, L. Anchordoqui, D. Badoni, J. Baláž, B. Baret, M. Battisti, R. Bellotti, M. Bertaina, M. Betts, S. Blin, M. Boezio, P. Bořil, I. Buckland, J. Burton Heibges, F. Cafagna, R. Caruso, M. Casolino, K. Černý, B. Chamanbahar, N. Cordrey, A. Creusot, A. Cummings, C. De Santis, P. Degarate, N. DeWitt Pierrat, A. Di Giovanni, A. Di Salvo, B. J. DiLella, J. Eser, S. Ferrarese, G. Filippatos, J. Ford, N. Gagalis, P. Gálvez Molina, S. Garbolino, D. Garg, R. Gargiulo, B. Gockel, A. Grelle, C. Guépin, A. Haungs, T. Heibges, J. Hinkel, A. K. Ikehara, J. Krizmanic, L. Kupari, E. H. Lenzing, F. Liberatori, S. Mackovjak, D. Mandát, M. Manfrin, A. Marcelli, L. Marcelli, G. Masciantonio, V. Masone, E. Mayotte, A. Meli, E. Mentzell, M. Mese, S. Meyer, M. Mignone, M. Miller, M. Mongelli, J. Moses, E. Msihid, R. Munini, M. Murdock, A. Novikov, A. V. Olinto, Y. Onel, G. Osteria, B. Panico, E. Parizot, G. Passeggio, T. Paul, M. Pech, K. Peñaló Castillo, F. Perfetto, C. Petta, P. Picozza, L. Piotrowski, Z. Plebaniak, H. Qureshi, E. Reali, F. Reynaud, E. Ricci, M. Ricci, A. Rivetti, A. Roy, F. Sarazin, V. Scherini
- - **Subjects:** Subjects:
-High Energy Astrophysical Phenomena (astro-ph.HE); High Energy Physics - Phenomenology (hep-ph)
- - **Arxiv link:** https://arxiv.org/abs/2610.29942
-
- - **Pdf link:** https://arxiv.org/pdf/2610.29942
-
- - **Abstract**
- POEMMA-Balloon with Radio (PBR) is a hybrid fluorescence and optical Cherenkov telescope that is a pathfinder instrument for a future Probe Of Extreme Multi-Messenger Astrophysics (POEMMA), together with a radio instrument, to be flown on a super pressure balloon in Spring 2028. One of its science objectives is follow up of astrophysical event alerts via signals of tau decays in the atmosphere, sourced by Earth-skimming tau neutrinos. The recent report of the KM3NeT Collaboration's muon event with $ E_{\mu}=120^{+110}_{-60}$ PeV sparked searches for beyond the standard model (BSM) physics explanations. Using a specific, boosted dark matter scenario which together with the KM3NeT observation, sets a scale for the fluence of boosted dark matter in this energy range, we assess the capabilities of PBR to constrain or discover such a source for a boosted dark matter energy spectrum above $\sim 10^8$ GeV. PBR has discovery potential for dark matter energies above $10^9$ GeV, and depending on BSM input parameters, to dark matter energies as low as $1.5\times 10^8$ GeV. While the analysis is focused on one BSM example, the methodology is applicable to any BSM physics that affects tau production in the Earth.
-#### Extended vs. thin screen approximation in astrophysical settings
- - **Authors:** Manuel Adlberger, Tobias Kramer
- - **Subjects:** Subjects:
-High Energy Astrophysical Phenomena (astro-ph.HE)
- - **Arxiv link:** https://arxiv.org/abs/2610.30093
-
- - **Pdf link:** https://arxiv.org/pdf/2610.30093
-
- - **Abstract**
- Context: In the context of radio wave propagation through plasma concentrations and for gravitational lensing, the thin screen approximation often provides a suitable approximation for scattering and deflections caused by three-dimensional spatial structures. For scattering of electromagnetic waves from an extended medium, stochastic theories provide analytical bounds on ensemble averaged quantities, such as the scintillation index. If neither the conditions for a stochastic treatment nor the thin screen approximation are fulfilled, fully numerical methods are required. Aims: For an extended structure, the applicability of the thin screen approximation needs to be verified by comparing it with the fully three-dimensional scattering solution. We discuss various exact solutions to simple lensing geometries and provide numerical results for the propagation in the branched-flow regime, which is also of relevance in astrophysical applications. Methods: We transfer several analytical results obtained in quantum mechanical scattering theory to astrophysical settings and complement them with different numerical methods to quantify the deviations of thin screen theories from an extended medium results. Results: We provide the analytical results for spherical waves scattered by a point source and show the emergence of branchef flow in the intermediate regime between thin screen physics and stochastic media results.
+ The Lyman-$\alpha$ (Ly$\alpha$) forest flux power spectrum $P(k)$ is sensitive to a range of astrophysical and cosmological effects, including the thermal state of and large-scale fluctuations in the intergalactic medium and the nature of dark matter. Measuring $P(k)$ becomes increasingly challenging at high redshift, where fewer quasar spectra are available and higher Ly$\alpha$ optical depths result in lower transmitted flux. In addition, observational effects and missing data complicate standard Fourier-transform estimators. Here, we validate a likelihood-based estimator for $P(k)$. The method constructs the pixel-level covariance matrix of the transmitted flux field using precomputed $k$-space integrals that account for instrumental resolution and pixelization, enabling direct maximum-likelihood inference of $P(k)$. We test the estimator using mock Ly$\alpha$ forest spectra at $z \geq 5$, including analytic Gaussian realizations generated from known power spectra and forward-modeled simulation spectra incorporating observational effects relevant to high-redshift quasar surveys, such as finite spectral resolution, pixel sampling, noise, and missing data. We compare the recovered power spectra with both the input spectra and standard Fourier-transform estimates. We find that the likelihood-based estimator recovers the input power spectrum across the tested scales well within expected error and remains robust to the observational effects considered. This work establishes a framework for measuring Ly$\alpha$ forest clustering with a robust, nearly optimal power spectrum estimator, with particular focus on quantifying large-scale fluctuations that may arise from ultraviolet background fluctuations or the late stages of reionization.
 
 
 by olozhika (Xing Yuchen). 
 
 
-2026-10-22
+2026-10-23
